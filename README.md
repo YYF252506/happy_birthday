@@ -99,7 +99,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("12/28/2007 00:00:00");//这个日期是可以修改的
+        BirthDay = new Date("11/17/2007 00:00:00");//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -122,7 +122,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("祝彭辉|生日快乐|愿你|前程似锦|未来可期|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+            S.UI.simulate("心底|生日快乐|祝你|前程似锦|未来可期|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -577,8 +577,7 @@
 </script>
 <!--//音乐可改-->
 <audio autoplay="autoplay" loop="loop">
-    <source src="music.mp3" type="audio/mpeg">
+    <source src="http://m10.music.126.net/20180509183512/5ae461e9a42675d782840bf139b05c60/ymusic/e492/ea7a/6a27/8799d19e52d9bbe3ae15febb03d7efdb.mp3" type="audio/mpeg">
 </audio>
-<!-- 注意：请将音乐文件重命名为music.mp3并放在与HTML文件相同的目录中 -->
 </body>
 </html>
